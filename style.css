@@ -6,9 +6,21 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.developer-png {
+  max-width: 774px;
+  margin-top: 38px;
+  margin-left: 23px;
+}
 header {
-  background-color: #fff8f3;
-  padding-top: 31px;
+  background: url(./images/developer.png), url(./images/header_bg.png), #fff8f3;
+  background-position: top left, bottom right;
+
+  background-repeat: no-repeat;
 }
 /*nav bar desisn*/
 nav {
@@ -48,4 +60,47 @@ a {
   font-weight: bold;
   color: white;
   font-size: 20px;
+}
+#banner {
+  /* border: 1px solid black; */
+  margin: 30px 38px 0px 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#banner .banner-content {
+  max-width: 585px;
+}
+.banner-content h2 {
+  font-weight: 600;
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 5px;
+}
+.banner-content h1 {
+  font-weight: bold;
+  font-size: 85px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.banner-content p {
+  font-size: 18px;
+  color: #757575;
+  line-height: 30px;
+  margin-bottom: 31px;
+}
+
+.banner-buttons .btn-banner {
+  padding: 19px 17px;
+}
+.banner-buttons .btn-banner1 {
+  padding: 19px 24px;
+  background-color: #fff8f3;
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  margin-left: 37px;
+}
+#banner .banner-image {
+  max-width: 585px;
+  vertical-align: middle;
 }
