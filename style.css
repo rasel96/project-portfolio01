@@ -104,3 +104,32 @@ a {
   max-width: 585px;
   vertical-align: middle;
 }
+#about {
+  margin-top: 130px;
+}
+.about-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: #fff8f3;
+  padding: 131px 157px;
+  text-align: center;
+}
+.about-heading h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.about-heading p {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.about-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.info-cards p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #757575;
+}
