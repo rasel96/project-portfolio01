@@ -133,3 +133,48 @@ a {
   line-height: 30px;
   color: #757575;
 }
+
+#skill {
+  margin-top: 130px;
+}
+.skill-container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.skill-heading h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.skill-heading p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.skill-box {
+  display: flex;
+
+  justify-content: space-around;
+}
+.skill-card {
+  padding: 30px;
+  max-width: 267px;
+  
+  box-shadow: 0 6px 50px #00000028;
+}
+.skill-card img {
+  max-width: 44px;
+}
+.skill-card h3 {
+  font-weight: bold;
+  color: #181818;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.skill-card p {
+  line-height: 28px;
+  font-size: 15px;
+  color: #757575;
+}
